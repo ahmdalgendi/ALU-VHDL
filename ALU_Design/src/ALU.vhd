@@ -26,16 +26,16 @@ use ieee.NUMERIC_STD.all;
 ---------- ALU 8-bit VHDL ---------------------
 -----------------------------------------------
 entity ALU is
-  
+
     Port (
     A, B     : in  STD_LOGIC_VECTOR(7 downto 0);  -- 2 inputs 8-bit
     ALU_Sel  : in  STD_LOGIC_VECTOR(3 downto 0);  -- 1 input 4-bit for selecting function
-    ALU_Out   : out  STD_LOGIC_VECTOR(7 downto 0)-- 1 output 8-bit 
-    
-    ); 
-   
-    
-end ALU; 	          
+    ALU_Out   : out  STD_LOGIC_VECTOR(7 downto 0)-- 1 output 8-bit
+
+    );
+
+
+end ALU;
 
 architecture Behavioral of ALU is
 
@@ -46,7 +46,7 @@ begin
  begin
   case(ALU_Sel) is
   when "0000" => -- Addition
-   ALU_Result <= A + B ; 
+   ALU_Result <= A + B ;
   when "0001" => -- Subtraction
    ALU_Result <= A - B ;
   when "0010" => -- Logical shift left
@@ -63,9 +63,9 @@ begin
    ALU_Result <= A - '1' ;
   when "1000" => -- Zero
    ALU_Result <= "00000000" ;
-  when others => ALU_Result <= ALU_Result ; 
+  when others => ALU_Result <= A ;
   end case;
  end process;
  ALU_Out <= ALU_Result; -- ALU out
- 
+
 end Behavioral;
