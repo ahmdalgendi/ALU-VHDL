@@ -1,0 +1,40 @@
+timestamp=1524841443019
+
+[alu]
+A/behavioral=A/Behavioral 21|./src/ALU.vhd|40|1*34967
+B/behavioral=3*14373
+I=0*8981
+I/behavioral=I/Behavioral 0*15427
+M=11|0|v147|1524840105999|./src/ALU.vhd|0*8609*0x507698166a983a78addb3b9a82be7ecc7573a6e7|0*8917*0x7bd7e13dc0415552f89596087806a8cf
+M/behavioral=M/Behavioral 21|0|v147|1524841096760|./src/ALU.vhd|0*14634*0xd7669462ad9aec17468fc3917f33c693a03a864a|0*15349*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/ALU.vhd|31
+
+[alu_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./src/TestBench/alu_TB.vhd|11|1*43618
+B/tb_architecture=3*18635
+I=0*10586
+I/tb_architecture=I/TB_ARCHITECTURE 0*22070
+M=11|0|v147|1524840469217|./src/TestBench/alu_TB.vhd|0*10298*0xe8346314b892462f0d42bcbf445f48144191da39|0*10506*0x7bd7e13dc0415552f89596087806a8cf
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|v147|1524841442910|./src/TestBench/alu_TB.vhd|0*20639*0xfafa36f76ff463e8712922c86eed7af78c2c0b25|0*21971*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/TestBench/alu_TB.vhd|8
+
+[testbench_for_alu]
+E=1*46452
+I=0*22702
+M=2|0|v147|1524841442921|./src/TestBench/alu_TB.vhd|0*22366*0x146e1f91c216803e20ca8e3a08bb0a0a651b2210|0*22602*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/TestBench/alu_TB.vhd|104
+
+[~A]
+ModifyID=113
+Version=73
+
+[~MFT]
+0=134|0ALU_Design.mgf|22702|18217
+1=44|1ALU_Design.mgf|46452|41401
+3=13|3ALU_Design.mgf|18635|14373
+
+[~U]
+alu=11|0*8394|
+alu_tb=11|0*10239|
+testbench_for_alu=TESTBENCH_FOR_alu 2||
+
