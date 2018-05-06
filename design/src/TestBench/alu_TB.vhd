@@ -38,8 +38,8 @@ begin
 			ALU_Out => ALU_Out
 		);
 
-	-- Add your stimulus here ...  
-process
+	-- Add your stimulus here ...
+	process
 begin 
 	A <= "11111110"  ;
   B <= "00000001"   ;
@@ -98,7 +98,8 @@ begin
 	-------------------------------------
 	  
 end process;	
-	
+
+
 end TB_ARCHITECTURE;
 
 configuration TESTBENCH_FOR_alu of alu_tb is
@@ -107,5 +108,5 @@ configuration TESTBENCH_FOR_alu of alu_tb is
 			use entity work.alu(behavioral);
 		end for;
 	end for;
-end TESTBENCH_FOR_alu;		         
+end TESTBENCH_FOR_alu;
 

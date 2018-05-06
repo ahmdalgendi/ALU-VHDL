@@ -1,4 +1,4 @@
-MESSAGE "File: c:\My_Designs\ALU\ALU_Design\src\TestBench\alu_TB.vhd" 
+MESSAGE "File: C:\My_Designs\ALU_FINAl\design\src\TestBench\alu_TB.vhd" 
 MESSAGE "Compile Entity "alu_tb"" 
 MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "alu_tb"" 
 MESSAGE "Compile Configuration "TESTBENCH_FOR_alu"" 

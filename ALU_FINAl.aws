@@ -1,9 +1,9 @@
 [Version]
 Version=8.1
 [Designs]
-alu_design=.\ALU_Design\ALU_Design.adf
+design=.\design\design.adf
 [Expand]
-alu_design=1
+design=1
 [Browser]
 sort=order
 mode=none

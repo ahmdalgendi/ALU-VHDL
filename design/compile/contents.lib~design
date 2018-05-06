@@ -1,0 +1,6 @@
+16
+~E 1 "./src/TestBench/alu_TB.vhd" 8 alu_tb
+~A 1 "./src/TestBench/alu_TB.vhd" 11 tb_architecture
+~E 1 "./src/ALU.vhd" 29 alu
+~A 1 "./src/ALU.vhd" 41 behavioral
+~C 1 "./src/TestBench/alu_TB.vhd" 105 testbench_for_alu

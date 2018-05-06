@@ -1,1 +1,0 @@
--w -s "c:\My_Designs\ALU\library.cfg"  -j "c:\My_Designs\ALU\ALU_Design\projlib.cfg"  -d "c:\My_Designs\ALU\ALU_Design\compile"   -work ALU_Design  -dbg -e 100 -2002 "c:\\My_Designs\\ALU\\ALU_Design\\src\\TestBench\\alu_TB.vhd" 

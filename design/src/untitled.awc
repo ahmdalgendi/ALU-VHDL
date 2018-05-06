@@ -6,7 +6,7 @@
     </comment>
     <databases>
         <database id="">*virtual*</database>
-        <database id="6DAC255A E37AF200"> sx.asdb</database>
+        <database id="14B405A E720D700">untitled.asdb</database>
     </databases>
     <signallists>
         <signallist id="0">
@@ -38,8 +38,8 @@
     </propertybases>
     <prefbases>
         <prefbase id="0" >
-            <pref name="End Time" value="28622" />
-            <pref name="Start Time" value="28622" />
+            <pref name="End Time" value="108301" />
+            <pref name="Start Time" value="0" />
         </prefbase>
     </prefbases>
     <bookmarkbases>
@@ -48,7 +48,7 @@
     </bookmarkbases>
     <cursorbases>
         <cursors id="0">
-            <cursor value="120000" label="Cursor 1" />
+            <cursor value="100000" label="Cursor 1" />
         </cursors>
     </cursorbases>
     <views>

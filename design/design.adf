@@ -5,13 +5,13 @@ version=1
 Current Config=compile
 
 [Configurations]
-compile=ALU_Design
+compile=design
 
 [Library]
-ALU_Design=.\ALU_Design.LIB
+design=.\design.LIB
 
 [$LibMap$]
-ALU_Design=.
+design=.
 Active_lib=
 
 [Settings]
@@ -45,8 +45,6 @@ Selected=
 /ALU.vhd=-1
 /untitled.asdb=-1
 /untitled.awc=-1
-/ sx.asdb=-1
-/ sx.awc=-1
 TestBench/alu_TB.vhd=-1
 TestBench/alu_TB_runtest.do=-1
 
@@ -54,7 +52,6 @@ TestBench/alu_TB_runtest.do=-1
 .\src\ALU.vhd=VHDL Source Code
 .\src\untitled.asdb=Accelerated Waveform File
 .\src\untitled.awc=Accelerated Waveform Configuration
-.\src\ sx.asdb=Accelerated Waveform File
-.\src\ sx.awc=Accelerated Waveform Configuration
 .\src\TestBench\alu_TB.vhd=VHDL Test Bench
 .\src\TestBench\alu_TB_runtest.do=Macro
+
